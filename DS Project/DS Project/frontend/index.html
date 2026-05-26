@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FPL Scout – Modern Web UI</title>
+    <meta name="description" content="Explore Fantasy Premier League players, view stats and get end‑of‑season forecasts.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+    <header class="header">
+        <h1>FPL Scout</h1>
+        <span class="beta">Beta</span>
+        <button id="themeToggle" class="theme-toggle">🌙</button>
+    </header>
+    <main class="main">
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Search players…" autocomplete="off" />
+            <ul id="suggestions" class="suggestions"></ul>
+        </section>
+        <section id="playerDetails" class="player-details hidden"></section>
+    </main>
+    <script src="/static/app.js"></script>
+</body>
+</html>
