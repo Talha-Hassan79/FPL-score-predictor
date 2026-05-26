@@ -1,2 +1,2 @@
 [tool.vercel]
-entrypoint = "DS Project.DS Project.api.app:app"
+entrypoint = "vercel_app:app"
